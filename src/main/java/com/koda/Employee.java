@@ -19,11 +19,11 @@ public class Employee {
         System.out.println("=======================");
         System.out.println("     KODA ENTERPRISE    ");
         System.out.println("=======================");
-        System.out.println("Employee ID: " + _employeeID);
-        System.out.println("Name: " + _name);
-        System.out.println("Position: " + _position);
-        System.out.println("Department: " + _department);
-        System.out.println("Salary: Rp. " + _salary.getSalary());
-        _salary.salaryIncrease(-10);
+        System.out.println("Employee ID : " + _employeeID);
+        System.out.println("Name        : " + _name);
+        System.out.println("Position    : " + _position);
+        System.out.println("Department  : " + _department);
+        System.out.println("Salary      : Rp. " + _salary.getSalary());
+        _salary.salaryIncrease(150000);
     }
 }
